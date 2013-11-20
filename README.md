@@ -11,4 +11,4 @@ cls_MySqlDB: Zugriff auf die Datenbank zum Speichern der Eventlogeinträge.
 cls_Waschmaschine: Klasse für die komplette Waschmaschine, die Klasse Motor ist ein Bestandteil von ihr.
 
 Formulare:
-MainWindow: Hauptformular mit Image der Waschmaschine. Hierdrüber kann mit dem IOWarrior über Buttons und Checkboxen interagiert werden.
+MainWindow: Hauptformular mit Image der Waschmaschine. Hierdrüber kann mit dem IOWarrior, über Buttons und Checkboxen interagiert werden.
