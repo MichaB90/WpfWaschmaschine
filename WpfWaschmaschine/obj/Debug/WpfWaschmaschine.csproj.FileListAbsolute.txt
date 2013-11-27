@@ -11,4 +11,3 @@ d:\users\david richter\documents\visual studio 2012\Projects\WpfWaschmaschine\Wp
 d:\users\david richter\documents\visual studio 2012\Projects\WpfWaschmaschine\WpfWaschmaschine\obj\Debug\WpfWaschmaschine.csproj.GenerateResource.Cache
 d:\users\david richter\documents\visual studio 2012\Projects\WpfWaschmaschine\WpfWaschmaschine\obj\Debug\WpfWaschmaschine.exe
 d:\users\david richter\documents\visual studio 2012\Projects\WpfWaschmaschine\WpfWaschmaschine\obj\Debug\WpfWaschmaschine.pdb
-D:\Users\David Richter\documents\visual studio 2012\Projects\WpfWaschmaschine\WpfWaschmaschine\bin\Debug\MySql.Data.dll
