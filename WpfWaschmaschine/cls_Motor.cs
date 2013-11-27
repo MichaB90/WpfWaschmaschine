@@ -2,52 +2,69 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
-
+using System.Timers;
+using System.ComponentModel;
+using System.Diagnostics;
 namespace WpfWaschmaschine
 {
     class cls_Motor 
     {
+        MainWindow frmMain;
         bool visled_R;
         bool visled_n1;
         bool visled_n2;
-        public bool Pruef_Wasser()
+
+        public cls_Motor(MainWindow p_frmMain)
         {
-            bool l_bReturn = false;
+            frmMain = p_frmMain;
+           
+            
+        }
 
-            if (m_oWasser == Wasserstand.Mindestens)
-            {
-                Thread doSetMindestens = null;
-                doSetMindestens.Start();
-                Thread.Sleep(2000);
-
-                l_bReturn = true;
-            }
-            else if (m_oWasser == Wasserstand.Hoechstens)
-            {
-                Thread doSetMindestens = null;
-                doSetMindestens.Start();
-                Thread.Sleep(2000);
-
-                Thread doSetHoechstens = null;
-                doSetHoechstens.Start();
-                Thread.Sleep(2000);
-
-                l_bReturn = true;
-            }
-            else
-            {
-                //Keine Temperatur also Fehler
-                l_bReturn = false;
-            }
-
+        public bool Motordrehtnormal()
+        {
+            bool l_bReturn = false;        
+                Thread doSetMotNormal = null;
+                doSetMotNormal.Start();
+                //Thread.Sleep(1000);
+                frmMain.led_n1.Visibility = System.Windows.Visibility.Visible;
+                frmMain.led_n2.Visibility = System.Windows.Visibility.Hidden;
+                frmMain.led_R.Visibility = System.Windows.Visibility.Hidden;
+                Thread.Sleep(1000);
+                frmMain.led_n1.Visibility = System.Windows.Visibility.Hidden;
+                frmMain.led_n2.Visibility = System.Windows.Visibility.Visible;
+                frmMain.led_R.Visibility = System.Windows.Visibility.Hidden;
+                Thread.Sleep(1000);
+                frmMain.led_n1.Visibility = System.Windows.Visibility.Hidden;
+                frmMain.led_n2.Visibility = System.Windows.Visibility.Hidden;
+                frmMain.led_R.Visibility = System.Windows.Visibility.Visible;
+                Thread.Sleep(1000);
             return l_bReturn;
         }
-        public enum Motorphasen
+        public bool Motorstopt()
         {
-            Leer = 0,
-            Mindestens = 1,
-            Hoechstens = 2
-        }
+            bool l_bReturn = false;
+            Thread doSetMotNormal = null;
+            doSetMotNormal.Start();
+            //Thread.Sleep(1000);
+            frmMain.led_n1.Visibility = System.Windows.Visibility.Visible;
+            frmMain.led_n2.Visibility = System.Windows.Visibility.Hidden;
+            frmMain.led_R.Visibility = System.Windows.Visibility.Hidden;
+            Thread.Sleep(3000);
+            frmMain.led_n1.Visibility = System.Windows.Visibility.Hidden;
+            frmMain.led_n2.Visibility = System.Windows.Visibility.Visible;
+            frmMain.led_R.Visibility = System.Windows.Visibility.Hidden;
+            Thread.Sleep(4000);
+            frmMain.led_n1.Visibility = System.Windows.Visibility.Hidden;
+            frmMain.led_n2.Visibility = System.Windows.Visibility.Hidden;
+            frmMain.led_R.Visibility = System.Windows.Visibility.Visible;
+            Thread.Sleep(5000);
+            frmMain.led_n1.Visibility = System.Windows.Visibility.Hidden;
+            frmMain.led_n2.Visibility = System.Windows.Visibility.Hidden;
+            frmMain.led_R.Visibility = System.Windows.Visibility.Hidden;
+            return l_bReturn;
+        } 
     }
 }
