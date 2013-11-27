@@ -15,8 +15,8 @@ namespace WpfWaschmaschine
 
         string m_sServer = "localhost;";
         string m_sDatabase = "mydatabase;";
-        string m_sUser = "user;";
-        string m_sPasswort = "mypassword;";
+        string m_sUser = "sa;";
+        string m_sPasswort = "Pass123;";
 
 
         public MySqlDB(string p_sServer, string p_sDatabase, string p_sUser, string p_sPasswort)
@@ -25,8 +25,14 @@ namespace WpfWaschmaschine
             m_sDatabase = p_sDatabase;
             m_sUser = p_sUser;
             m_sPasswort = p_sPasswort;
+
+            Init();
         }
 
+        private void Init()
+        { 
+            
+        }
 
         //Öffnet die Datenbank
         public bool OpenDatabase()
