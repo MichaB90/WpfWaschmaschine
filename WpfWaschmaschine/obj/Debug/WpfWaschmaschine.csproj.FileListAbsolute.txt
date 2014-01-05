@@ -11,3 +11,14 @@ d:\users\david richter\documents\visual studio 2012\Projects\WpfWaschmaschine\Wp
 d:\users\david richter\documents\visual studio 2012\Projects\WpfWaschmaschine\WpfWaschmaschine\obj\Debug\WpfWaschmaschine.csproj.GenerateResource.Cache
 d:\users\david richter\documents\visual studio 2012\Projects\WpfWaschmaschine\WpfWaschmaschine\obj\Debug\WpfWaschmaschine.exe
 d:\users\david richter\documents\visual studio 2012\Projects\WpfWaschmaschine\WpfWaschmaschine\obj\Debug\WpfWaschmaschine.pdb
+C:\Users\Michael\Documents\GitHub\WpfWaschmaschine\WpfWaschmaschine\bin\Debug\WpfWaschmaschine.exe.config
+C:\Users\Michael\Documents\GitHub\WpfWaschmaschine\WpfWaschmaschine\obj\Debug\WpfWaschmaschine.exe
+C:\Users\Michael\Documents\GitHub\WpfWaschmaschine\WpfWaschmaschine\obj\Debug\WpfWaschmaschine.pdb
+C:\Users\Michael\Documents\GitHub\WpfWaschmaschine\WpfWaschmaschine\obj\Debug\WpfWaschmaschine.csprojResolveAssemblyReference.cache
+C:\Users\Michael\Documents\GitHub\WpfWaschmaschine\WpfWaschmaschine\obj\Debug\MainWindow.baml
+C:\Users\Michael\Documents\GitHub\WpfWaschmaschine\WpfWaschmaschine\obj\Debug\MainWindow.g.cs
+C:\Users\Michael\Documents\GitHub\WpfWaschmaschine\WpfWaschmaschine\obj\Debug\App.g.cs
+C:\Users\Michael\Documents\GitHub\WpfWaschmaschine\WpfWaschmaschine\obj\Debug\WpfWaschmaschine_MarkupCompile.cache
+C:\Users\Michael\Documents\GitHub\WpfWaschmaschine\WpfWaschmaschine\obj\Debug\WpfWaschmaschine.g.resources
+C:\Users\Michael\Documents\GitHub\WpfWaschmaschine\WpfWaschmaschine\obj\Debug\WpfWaschmaschine.Properties.Resources.resources
+C:\Users\Michael\Documents\GitHub\WpfWaschmaschine\WpfWaschmaschine\obj\Debug\WpfWaschmaschine.csproj.GenerateResource.Cache
